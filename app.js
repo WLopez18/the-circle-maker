@@ -3,7 +3,6 @@
 let form = document.querySelector('form');
 let input = document.querySelector('input');
 let container = document.querySelector('#container');
-console.log(container)
 form.addEventListener('submit', function (ev) {
     ev.preventDefault();
     let size = input.value;
