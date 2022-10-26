@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.circle {
+    width: 5rem;
+    height: 5rem;
+    background-color: tomato;
+    border-radius: 50%;
+}
+
+form {
+    border: solid 1px dodgerblue;
+    padding: 1rem;
+}
+
+input,
+button {
+    height: 2rem;
+}
