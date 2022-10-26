@@ -6,6 +6,9 @@ let container = document.querySelector('#container');
 form.addEventListener('submit', function (ev) {
     ev.preventDefault();
     let size = input.value;
+    if (size === '') {
+        size = Math.ceil(Math.random() * 10)
+    }
     let div = document.createElement('div');
     div.style.width = size + 'rem';
     div.style.height = size + 'rem';
